@@ -1,0 +1,245 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    Text-align: center;
+    font-size:xx-large;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    Text-align: center;
+    font-size:large;
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    Text-align: center;
+    font-size:x-large;
+    color: rgb(33, 161, 76);
+}
+
+h4{
+    Text-align: center;
+    font-size:x-large;
+    color: rgb(255, 255, 255);
+}
+
+h5{
+    Text-align: center;
+    font-size:large;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    color: rgb(33, 161, 76);
+}
+
+.column1 img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.column{ 
+    float:center;
+    width: 650px;
+    margin: 10px;
+    border: 3px solid rgb(33, 161, 76);
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.coverimage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+
+h6{
+    Text-align: center;
+    font-size:small;
+    color: rgb(255, 255, 255); 
+}
+
+#histbox {
+    display: inline-block;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.history {
+    vertical-align: top;
+    background-color: #020202;
+    display: inline-block;
+    width: 25%;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 40px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 15px 10px;
+}
+
+
+.history img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: 160px;
+    width: 300px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.dates {
+    width: 40%;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 5px 7px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+  
+.dates p {
+    font-size: 13px;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dates h3 {
+    margin: 10px 0;
+    font-size: 19px;
+    color:#020202
+}
+
+.shadow {
+	box-shadow: 10px 10px #ffffff;
+}
+  
+p{
+    color: rgb(33, 161, 76);
+}
+    
+  .accordion {
+    width: 800px;
+    margin: 90px auto;
+    color: black;
+    background-color: white;
+    padding: 45px 45px;
+}
+  
+  .accordion .container {
+    position: relative;
+    margin: 10px 10px;
+}
+  
+  .accordion .label {
+    position: relative;
+    padding: 10px 0;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+  
+  .accordion .label::before {
+    content: '+';
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+  
+  .accordion .content {
+    position: relative;
+    background: white;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 780px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+  
+  .accordion hr {
+    width: 100;
+    margin-left: 0;
+    border: 1px solid grey;
+}
+  
+  .accordion .container.active .content {
+    height: 150px;
+}
+  
+  .accordion .container.active .label::before {
+    content: '-';
+    font-size: 30px;
+}
+  
+  .accordian h1 {
+    Color: black;
+}
+
+.row {
+    display: flex;
+}
+
+.Pcolumn {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.row img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mySlides {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.columnpick { 
+    float:center;
+    width: 650px;
+    margin: 10px;
+    border: 3px double rgb(255, 255, 255);
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+
+}
